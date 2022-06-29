@@ -1,0 +1,16 @@
+:host .wrapper {
+  border: 5px solid #ccc;
+  padding: 1rem;
+}
+
+button {
+  /* margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  cursor: pointer; */
+}

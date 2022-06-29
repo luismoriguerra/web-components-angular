@@ -18,7 +18,7 @@
     "@angular-devkit/core" "14.0.3"
     rxjs "6.6.7"
 
-"@angular-devkit/build-angular@^14.0.3":
+"@angular-devkit/build-angular@>=14.0.0", "@angular-devkit/build-angular@^14.0.3":
   version "14.0.3"
   resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-14.0.3.tgz#725b371aabdccf7819ca78b963efe6593ffc19b1"
   integrity sha512-XxS27EZyzPbZokepjrtY8joOkf/7e/gIyT4vBtUlBp8e7JZEHTYcQcaZKttec0RP7U8HAxdJ7fy9oXy2zH+BDQ==
@@ -185,6 +185,13 @@
   version "14.0.3"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-14.0.3.tgz#939efb1016a64f872e9793383425756826544644"
   integrity sha512-Z71BrEIJuMGm/BdK9Lh8IJwADQqA8qPeUVppCs67CABZdwA3sK0kC+iobauWXcweXU30BdQYc7HyZe2x7rcdmQ==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/elements@^14.0.3":
+  version "14.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-14.0.3.tgz#0ba07e33a2ba8cf88eb50ac8b62ac20d71e08fbb"
+  integrity sha512-uA5LqjsalIDrKHKdkP8B25gVMDO+hIi8AyhrEvjvgPdi23rTlLtlZbR0mI6WnjYaZ7FQp8YMoiJwhZg8bm4DiQ==
   dependencies:
     tslib "^2.3.0"
 
@@ -1448,7 +1455,7 @@
     node-gyp "^8.4.1"
     read-package-json-fast "^2.0.3"
 
-"@schematics/angular@14.0.3":
+"@schematics/angular@14.0.3", "@schematics/angular@>=14.0.0":
   version "14.0.3"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-14.0.3.tgz#1aba072e526fc0bb5961466a7f1dff946ee3c418"
   integrity sha512-Ors4O4udW3O0yjEDCOhkvJE29NysKMnSnY5YvbOYp1R8+6CdP0ltxB91rX0ZRvy+ggdXCK77LnHm1p2ywPGKvQ==
@@ -2609,6 +2616,11 @@ custom-event@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/custom-event/-/custom-event-1.0.1.tgz#5d02a46850adf1b4a317946a3928fccb5bfd0425"
   integrity sha512-GAj5FOq0Hd+RsCGVJxZuKaIDXDf3h6GQoNEjFgbLLI/trgtavwUbSnZ5pVfg27DVCaWjIohryS0JFwIJyT2cMg==
+
+date-fns@^2.28.0:
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
+  integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
 date-format@^4.0.10:
   version "4.0.11"
@@ -4436,6 +4448,15 @@ neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+ngx-build-plus@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-build-plus/-/ngx-build-plus-14.0.0.tgz#7e2b896072773159c61684c287d4eb8dc5e8b5d5"
+  integrity sha512-Rq23dNx9jL34+hbCrSa7LYrkopZpKN6WGAfPRaFlCeuJ/b5YIPVk8cePjj3/CDZr7LlNPedTrEtMC1dpG4AXww==
+  dependencies:
+    "@angular-devkit/build-angular" ">=14.0.0"
+    "@schematics/angular" ">=14.0.0"
+    webpack-merge "^5.0.0"
 
 nice-napi@^1.0.2:
   version "1.0.2"
@@ -6340,7 +6361,7 @@ webpack-dev-server@4.9.0:
     webpack-dev-middleware "^5.3.1"
     ws "^8.4.2"
 
-webpack-merge@5.8.0:
+webpack-merge@5.8.0, webpack-merge@^5.0.0:
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/webpack-merge/-/webpack-merge-5.8.0.tgz#2b39dbf22af87776ad744c390223731d30a68f61"
   integrity sha512-/SaI7xY0831XwP6kzuwhKWVKDP9t1QY1h65lAFLbZqMPIuYcD9QAW4u9STIbU9kaJbPBB/geU/gLr1wDjOhQ+Q==
